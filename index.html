@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K叔｜不想上班的貓</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+    .btn-group {
+      margin: 2em 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .btn {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #444;
+    }
+    .email-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 2em;
+      border-radius: 10px;
+      margin-top: 2em;
+    }
+    input[type="email"] {
+      padding: 12px;
+      width: 70%;
+      max-width: 300px;
+      margin-right: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    input[type="submit"] {
+      padding: 12px 18px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    @media (min-width: 600px) {
+      .btn-group {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>K叔｜不想上班的貓</h1>
+    <p>自媒體經營 × 一人公司筆記<br>幫你找到斜槓人生的出口</p>
+
+    <div class="btn-group">
+      <a href="https://www.threads.net/@你的帳號" class="btn" target="_blank">🧵 追蹤 Threads</a>
+      <a href="https://runing9to5.com/" class="btn" target="_blank">📩 訂閱電子報</a>
+      <a href="https://你的 Notion 懶人包網址" class="btn" target="_blank">📦 查看懶人包</a>
+    </div>
+
+    <div class="email-box">
+      <h2>免費領取《7日 Threads 破圈包》</h2>
+      <form action="https://你.convertkit連結" method="post">
+        <input type="email" name="email" placeholder="輸入你的 Email" required />
+        <input type="submit" value="立即訂閱" />
+      </form>
+    </div>
+  </div>
+</body>
+</html>
